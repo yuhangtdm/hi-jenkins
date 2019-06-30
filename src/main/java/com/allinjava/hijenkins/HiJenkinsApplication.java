@@ -11,11 +11,14 @@ public class HiJenkinsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(HiJenkinsApplication.class, args);
+
     }
 
     @RequestMapping("hi")
     public String hi(){
         return "hi this is jenkins deploy";
     }
+
+
 
 }
